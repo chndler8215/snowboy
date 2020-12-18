@@ -12,7 +12,7 @@ Note:
 
 2. Go to `swig/Android` and build swig wrappers for Snowboy:
 
-		cd swig/Android
+		cd swig//Android
 		make
 	
 	To make for ARMv8 64bit:
@@ -41,7 +41,7 @@ Note:
 
 3. Use Android Studio to open the project in `examples/Android/SnowboyAlexaDemo` and run it.
 
-Screenshot (say "Alexa" after clicking "Start"):
+Screenshot (say "Jodie" after clicking "Start"):
 
 <img src="https://s3-us-west-2.amazonaws.com/kittai-cdn/Snowboy/SnowboyAlexaDemo-Andriod.jpeg" alt="Android Alexa Demo" width=300 />
 

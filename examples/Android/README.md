@@ -4,7 +4,7 @@ Note:
 
 1. supported building platforms are Android Studio running on Mac OS X or Ubuntu. Windows is not supported.
 2. supported target CPU is ARMv7 (32bit) and ARMv8 (64bit) (most Android phones run on ARM CPUs)
-3. we have prepared an Android app which can be installed and run out of box: [SnowboyAlexaDemo.apk](https://github.com/Kitt-AI/snowboy/raw/master/resources/alexa/SnowboyAlexaDemo.apk) (please uninstall any previous one first if you installed this app before).
+3. we have prepared an Android app which can be installed and run out of box: [SnowboyAlexaDemo.apk](https://github.com/Kitt-AI/snowboy/raw/master/resources/jodie/Snowboyjodie.apk) (please uninstall any previous one first if you installed this app before).
 
 ## General Workflow
 
@@ -12,7 +12,7 @@ Note:
 
 2. Go to `swig/Android` and build swig wrappers for Snowboy:
 
-		cd swig/Android
+		cd swig//Android
 		make
 	
 	To make for ARMv8 64bit:
@@ -41,7 +41,7 @@ Note:
 
 3. Use Android Studio to open the project in `examples/Android/SnowboyAlexaDemo` and run it.
 
-Screenshot (say "Alexa" after clicking "Start"):
+Screenshot (say "Jodie" after clicking "Start"):
 
 <img src="https://s3-us-west-2.amazonaws.com/kittai-cdn/Snowboy/SnowboyAlexaDemo-Andriod.jpeg" alt="Android Alexa Demo" width=300 />
 
